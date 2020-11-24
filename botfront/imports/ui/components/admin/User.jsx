@@ -19,7 +19,7 @@ import { UserEditSchema, UserCreateSchema } from '../../../api/user/user.schema'
 import { can } from '../../../lib/scopes';
 import { wrapMeteorCallback } from '../utils/Errors';
 import ChangePassword from './ChangePassword';
-import { PageMenu } from '../utils/Utils';
+import PageMenu from '../utils/PageMenu';
 
 class User extends React.Component {
     constructor(props) {
